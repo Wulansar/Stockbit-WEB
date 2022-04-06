@@ -1,0 +1,15 @@
+{
+    "scripts": {
+        "testing": "cucumber-js --require cucumber.conf.js --publish-quiet --require tests/**/acceptance/stepDefinitions/**/*js --format @cucumber/pretty-formatter 'tests/**/acceptance/features/*.feature'"
+    },
+    "devDependencies": {
+        "@cucumber/cucumber": "^7.3.1",
+        "@cucumber/pretty-formatter": "^1.0.0-alpha.1",
+        "@playwright/test": "^1.20.0",
+        "playwright": "^1.20.0"
+    },
+    "dependencies": {
+        "dotenv": "^16.0.0",
+        "eslint": "^8.11.0"
+    }
+}
